@@ -26,6 +26,7 @@ The project was developed using Python, SQL, and Power BI, and the final results
 ---
 
 ## 🗂️ Project Structure
+```bash
 german_jobmarket_analysis/
 │
 ├── Dashboard/
@@ -57,6 +58,7 @@ german_jobmarket_analysis/
 │└── job_scraping.ipynb
 ├── Feature-Outliers-Engineering/
 └── README.md
+```
 ---
 
 ## 🔍 Key Features
@@ -71,5 +73,6 @@ german_jobmarket_analysis/
 If you'd like to collaborate, give feedback, or hire me — feel free to connect:
 
 - 🐙 [GitHub Profile](https://github.com/Mahdi-Boudraa)
+
 
 
