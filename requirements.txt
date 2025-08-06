@@ -1,0 +1,33 @@
+# Core Data Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Web Scraping (if using job_scraping.ipynb)
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+selenium>=4.10.0
+
+# NLP (for requirements_extraction.ipynb)
+nltk>=3.8.0
+spacy>=3.5.0
+python-Levenshtein>=0.21.0  # For fuzzy matching
+spacy-transformers>=1.2.0    # Optional: if using BERT/transformers
+# Run after install: python -m spacy download en_core_web_sm
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Power BI Integration (if using Python scripts in Power BI)
+pyodbc>=4.0.0               # For SQL connectivity
+flask>=2.3.0                # Optional: for API endpoints
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilities
+python-dotenv>=1.0.0         # For environment variables
+tqdm>=4.65.0                # Progress bars
