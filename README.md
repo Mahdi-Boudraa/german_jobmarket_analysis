@@ -26,26 +26,23 @@ The project was developed using Python, SQL, and Power BI, and the final results
 ---
 
 ## 🗂️ Project Structure
-
 german_jobmarket_analysis/
 │
 ├── Dashboard/
 │ └── Power BI/
-│ ├── job_analysis.pbix # Power BI report file
-│ ├── Overview.png # Dashboard screenshots
+│ ├── job_analysis.pbix
+│ ├── Overview.png
 │ ├── Job_details.png
 │ └── Requirements.png
-│
 ├── Data/
 │ ├── clean/
-│ │ └── data.csv # Final cleaned dataset
+│ │ └── data.csv
 │ └── dirty/
-│ └── data.csv # Raw merged dataset
-│
+│ └── data.csv
 ├── Processing/
 │ ├── Data Cleaning/
 │ │ └── Dirty Data/
-│ │ ├── stepstone_jobs[...] # Raw scraped StepStone files
+│ │ ├── stepstone_jobs[...]
 │ │ ├── job_postings_classified.csv
 │ │ └── temp/
 │ └── Notebooks/
@@ -53,17 +50,13 @@ german_jobmarket_analysis/
 │ ├── requirements_extraction.ipynb
 │ ├── job_classification.ipynb
 │ └── translation.ipynb
-│
 ├── Data Collection/
 │ ├── Data/
 │ │ └── jobs_with_requirements.csv
 │ └── Notebook/
-│ └── job_scraping.ipynb # Job scraping script
-│
-├── Feature-Outliers-Engineering/ # Feature extraction & outlier removal
-│
+│ └── job_scraping.ipynb
+├── Feature-Outliers-Engineering/
 └── README.md
-
 ---
 
 ## 🔍 Key Features
@@ -78,3 +71,4 @@ german_jobmarket_analysis/
 If you'd like to collaborate, give feedback, or hire me — feel free to connect:
 
 - 🐙 [GitHub Profile](https://github.com/Mahdi-Boudraa)
+
