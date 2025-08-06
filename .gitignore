@@ -1,0 +1,62 @@
+# .gitignore for German Job Market Analysis Project
+
+### Python ###
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+.env.local
+
+# IDE files (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### Power BI ###
+# Power BI temporary files
+*.pbix.tmp
+*.pbix.lock
+*.pbix.*.tmp
+
+# Power BI auto-recovery
+*.autosave
+
+### Data ###
+# Large/local datasets (avoid committing raw/processed data)
+Data/dirty/
+Data/clean/
+*.csv
+*.xlsx
+*.parquet
+*.feather
+
+# Secrets/API keys
+*.env
+*.key
+*.pem
+config.py
+
+### OS / Miscellaneous ###
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Compiled/output files
+*.html
+*.pdf
+*.pickle
+*.model
+*.joblib
