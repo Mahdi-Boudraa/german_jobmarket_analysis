@@ -18,7 +18,7 @@ The project was developed using Python, SQL, and Power BI, and the final results
 
 ## 📊 Dashboard Preview
 
-![Overview](Dashboard/Power%20BI/Overview.png)
+![Overview](Dashboard)
 
 
 👉 **Read full article on Medium:** [How I Built a Job Market Dashboard Using Power BI, SQL, and Python](https://your-medium-link)
@@ -78,6 +78,7 @@ german_jobmarket_analysis/
 If you'd like to collaborate, give feedback, or hire me — feel free to connect:
 
 - 🐙 [GitHub Profile](https://github.com/Mahdi-Boudraa)
+
 
 
 
